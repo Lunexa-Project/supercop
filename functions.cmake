@@ -79,7 +79,7 @@ endfunction (lunexa_crypto_autodetect)
 #
 # A fatal error is generated if `CRYPTO_LIBRARY` is not valid - linking will
 # always fails in this situation.
-function(lunexa_crypto_generate_header lunexa_CRYPTO_LIBRARY HEADER_FILE)
+function(lunexa_crypto_generate_header LUNEXA_CRYPTO_LIBRARY HEADER_FILE)
   lunexa_crypto_valid(${LUNEXA_CRYPTO_LIBRARY} VALID)
   if (NOT VALID)
     lunexa_crypto_libraries(ALL_LIBRARIES)
