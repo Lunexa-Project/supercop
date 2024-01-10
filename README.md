@@ -3,7 +3,7 @@
 > This project could use a rename :/
 
 **Just to let you guys know this is the same module as the monero as currently Lunexa is basically**
-** a one on one copy of Monero just renamed to lunexa as it is currently getting build upon it*
+** a one on one copy of Monero just renamed to lunexa as it is currently getting build upon it**
 
 ** all the credit goes to the people that have created and coded these to make it possible**
 
