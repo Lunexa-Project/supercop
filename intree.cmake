@@ -42,6 +42,6 @@ endif ()
 # next line fatal errors if invalid library selected
 lunexa_crypto_generate_header(${LUNEXA_CRYPTO_LIBRARY} "${CMAKE_BINARY_DIR}/include/lunexa/crypto.h")
 
-lunexa_crypto_get_target(${MONERO_CRYPTO_LIBRARY} CRYPTO_TARGET)
+lunexa_crypto_get_target(${LUNEXA_CRYPTO_LIBRARY} CRYPTO_TARGET)
 add_library(lunexa-crypto-intree ALIAS ${CRYPTO_TARGET})
 
